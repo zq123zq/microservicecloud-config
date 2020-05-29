@@ -5,7 +5,7 @@ spring:
 ---
 server: 
   port: 7001
-server:
+spring:
   profiles: dev
   application:
     name: microservicecloud-config-eureka-client
@@ -23,7 +23,7 @@ eureka:
 ---
 server: 
   port: 7001
-server:
+spring:
   profiles: test
   application:
     name: microservicecloud-config-eureka-client
